@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Version>1.0.5</Version>
+    <PackageIcon>7162b62c93462b494c74b40e1c17a5ef67558f1f_full.jpg</PackageIcon>
+    <Authors>Hüseyin ÖLMEZ</Authors>
+    <Company />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="d:\Documents\Resimler\7162b62c93462b494c74b40e1c17a5ef67558f1f_full.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+  </ItemGroup>
+
+</Project>
